@@ -10,9 +10,9 @@ from kornia.geometry.transform.pyramid import (
     build_pyramid,
     find_next_powerof_two,
     is_powerof_two,
-    pad,
 )
 from torch import Tensor
+from torch.nn.functional import pad
 
 from .nodes_registry import comfy_node
 
